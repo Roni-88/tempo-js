@@ -12,26 +12,32 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin: 100px 0 100px 0px;
+    margin: 80px 0 100px 0px;
     color: rgb(225, 234, 243);
 }
 
 section {
     background-color: white;
-    padding: 200px;
+    color: darkblue;
+    padding: 50px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 450px;
+    width: 650px;
+    height: 550px;
     margin: 0 auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.574);
+}
+
+#msg {
+    margin-bottom: 40px;
 }
 
 footer {
     display: flex;
     justify-content: center;
     color: rgb(225, 234, 243);
-    margin-top: 150px;
+    margin-top: 80px;
     font-style: italic;
 }
