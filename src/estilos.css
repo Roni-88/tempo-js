@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 98, 255, 0.87);
+    font: normal 15pt arial;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 100px 0px;
+    color: rgb(225, 234, 243);
+}
+
+section {
+    background-color: white;
+    padding: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.574);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(225, 234, 243);
+    margin-top: 150px;
+    font-style: italic;
+}
